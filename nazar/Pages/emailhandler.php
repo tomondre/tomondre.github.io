@@ -12,4 +12,3 @@ if(isset($_POST['submit']))
 
     mail($mailTo,$name,$txt);
 }
-
