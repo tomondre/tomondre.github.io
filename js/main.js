@@ -217,7 +217,7 @@ $(function() {
         }
     });
 
-    bar.animate(.65);
+    bar.animate(.70);
 
     var bar = new ProgressBar.Line(lineprog5, {
         strokeWidth: 1.72,
@@ -234,7 +234,7 @@ $(function() {
         }
     });
 
-    bar.animate(.80);
+    bar.animate(.85);
 
     // Contact form
     $('.art-input').keyup(function() {

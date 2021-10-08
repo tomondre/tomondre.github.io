@@ -59,8 +59,8 @@
                     <div class="art-header">
                         <!-- avatar -->
                         <div class="art-avatar">
-                            <a data-fancybox="avatar" href="../../img/face-2.png" class="art-avatar-curtain">
-                                <img src="../../img/face-2.png" alt="avatar">
+                            <a data-fancybox="avatar" href="../../../img/face-2.png" class="art-avatar-curtain">
+                                <img src="../../../img/face-2.png" alt="avatar">
                                 <i class="fa fa-expand"></i>
                             </a>
                             <!-- available -->
@@ -71,7 +71,7 @@
                         </div>
                         <!-- avatar end -->
                         <!-- name -->
-                        <h5 class="art-name mb-10"><a href="../../index.html">Tomas Ondrejka</a></h5>
+                        <h5 class="art-name mb-10"><a href="index.html">Tomas Ondrejka</a></h5>
                         <!-- post -->
                         <div class="art-sm-text">Software Developer <br>Software Engineering Student</div>
                     </div>
@@ -94,16 +94,16 @@
                                 </li>
                                 <!-- age -->
                                 <li>
-                                    <h6>Age:</h6><span>19</span>
-                                    <script>
-                                        var dob = new Date("10/28/2000");
-                                        var month_diff = Date.now() - dob.getTime();
-                                        var age_dt = new Date(month_diff);
-                                        var year = age_dt.getUTCFullYear();
-                                        var age = Math.abs(year - 1970);
-                                        document.getElementById("AgeCount").innerText = age.toString();
-                                    </script>
+                                    <h6>Age:</h6><span id="AgeCount"></span>
                                 </li>
+                                <script>
+                                    var dob = new Date("10/28/2000");
+                                    var month_diff = Date.now() - dob.getTime();
+                                    var age_dt = new Date(month_diff);
+                                    var year = age_dt.getUTCFullYear();
+                                    var age = Math.abs(year - 1970);
+                                    document.getElementById("AgeCount").innerText = age.toString();
+                                </script>
                             </ul>
                         </div>
                         <!-- info bar about end -->
@@ -118,7 +118,7 @@
                             <div class="art-lang-skills-item">
                                 <div id="circleprog1" class="art-cirkle-progress"></div>
                                 <!-- title -->
-                                <h6>Slovakian</h6>
+                                <h6>Slovak</h6>
                             </div>
                             <!-- skill end -->
 
@@ -141,6 +141,7 @@
 
                         <!-- divider -->
                         <div class="art-ls-divider"></div>
+
                         <!-- hard skills -->
                         <div class="art-hard-skills p-30-15">
 
@@ -228,11 +229,11 @@
                         <!-- knowledge list -->
                         <ul style="list-style-type: none">
                             <!-- list item -->
-                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Pandas DataFrame</li>
+                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> SQL</li>
                             <!-- list item -->
-                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Linux Knowledge</li>
+                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> REST API knowledge </li>
                             <!-- list item -->
-                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> SQL Knowledge</li>
+                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Npm js development</li>
                             <!-- list item -->
                             <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Git Knowledge</li>
                         </ul>
@@ -245,7 +246,7 @@
                         <div class="art-links-frame p-15-15">
 
                             <!-- download cv button -->
-                            <a href="files/cv.txt" class="art-link" download>Download cv <i class="fa fa-download"></i></a>
+                            <a href="nazar/Pages/files/cv.txt" class="art-link" download>Download cv <i class="fa fa-download"></i></a>
 
                         </div>
                         <!-- links frame end -->
@@ -259,6 +260,7 @@
                         <a href="https://www.linkedin.com/in/tomas-ondrejka/" target="_blank"><i class="fa fa-linkedin"></i></a>
                         <a href="https://www.facebook.com/tomas.o.ondrejka/" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a href="https://www.instagram.com/tomas_ondrejka_/" target="_blank"><i class="fa fa-instagram"></i></a>
+
                     </div>
                     <!-- sidebar social end -->
 
@@ -266,6 +268,7 @@
                 <!-- menu bar frame end -->
 
             </div>
+
 
 
             <!-- content -->
@@ -408,7 +411,7 @@
                                                         <span class="art-date">2020 - 2021</span>
                                                     </div>
                                                 </div>
-                                                <p>Creating exercises for customers with sight defections in JavaScript and HTML</p>
+                                                <p>Creating exercises for customers with sight defections in JavaScript and HTML using Node Package Manager with Phaser framework</p>
                                             </div>
                                         </div>
                                     </div>
@@ -484,10 +487,15 @@
                                     <a href="#.">Portfolio</a>
                                     <!-- sub menu -->
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="projects/HospitalManagementSystem.html">Wind Turbines</a></li>
-                                        <li class="menu-item"><a href="Glasses.html">Smart Glasses</a></li>
-                                        <li class="menu-item"><a href="Parkinglot.html">Parking lot</a></li>
-                                        <li class="menu-item"><a href="Drone.html">Drone</a></li>
+                                        <li class="menu-item"><a href="./projects/HospitalManagementSystem.html">Wind
+                                            Turbines</a>
+                                        </li>
+                                        <li class="menu-item"><a href="./projects/HospitalManagementSystem.html">Hospital Management System</a></li>
+                                        <li class="menu-item"><a href="./projects/EyeExercises.html">Eye Exercises</a></li>
+                                        <li class="menu-item"><a href="./projects/3DPrinter.html">3D Printer</a></li>
+                                        <li class="menu-item"><a href="./projects/Skrabmig.html">SkrabMig.dk</a></li>
+                                        <li class="menu-item"><a href="./projects/ProjectManagementSystem.html">Project Management System</a></li>
+                                        <li class="menu-item"><a href="./projects/Rabatoo.html">Rabatoo</a></li>
 
                                     </ul>
                                     <!-- sub menu end -->
