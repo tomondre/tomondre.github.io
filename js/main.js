@@ -234,7 +234,7 @@ $(function() {
         }
     });
 
-    bar.animate(.70);
+    bar.animate(.80);
 
     // Contact form
     $('.art-input').keyup(function() {

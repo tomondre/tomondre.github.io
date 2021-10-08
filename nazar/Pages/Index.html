@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="zxx">
 
@@ -9,7 +8,7 @@
     <!-- color of address bar in mobile browser -->
     <meta name="theme-color" content="#2B2B35">
     <!-- favicon  -->
-    <link rel="shortcut icon" href="../../img/thumbnail.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="../../css/plugins/bootstrap.min.css">
     <!-- font awesome css -->
@@ -21,7 +20,7 @@
     <!-- main css -->
     <link rel="stylesheet" href="../../css/style.css">
 
-    <title>History</title>
+    <title>Ondrejka Portfolio </title>
 </head>
 
 <body>
@@ -94,16 +93,16 @@
                                 </li>
                                 <!-- age -->
                                 <li>
-                                    <h6>Age:</h6><span>19</span>
-                                    <script>
-                                        var dob = new Date("10/28/2000");
-                                        var month_diff = Date.now() - dob.getTime();
-                                        var age_dt = new Date(month_diff);
-                                        var year = age_dt.getUTCFullYear();
-                                        var age = Math.abs(year - 1970);
-                                        document.getElementById("AgeCount").innerText = age.toString();
-                                    </script>
+                                    <h6>Age:</h6><span id="AgeCount"></span>
                                 </li>
+                                <script>
+                                    var dob = new Date("10/28/2000");
+                                    var month_diff = Date.now() - dob.getTime();
+                                    var age_dt = new Date(month_diff);
+                                    var year = age_dt.getUTCFullYear();
+                                    var age = Math.abs(year - 1970);
+                                    document.getElementById("AgeCount").innerText = age.toString();
+                                </script>
                             </ul>
                         </div>
                         <!-- info bar about end -->
@@ -118,7 +117,7 @@
                             <div class="art-lang-skills-item">
                                 <div id="circleprog1" class="art-cirkle-progress"></div>
                                 <!-- title -->
-                                <h6>Slovakian</h6>
+                                <h6>Slovak</h6>
                             </div>
                             <!-- skill end -->
 
@@ -141,6 +140,7 @@
 
                         <!-- divider -->
                         <div class="art-ls-divider"></div>
+
                         <!-- hard skills -->
                         <div class="art-hard-skills p-30-15">
 
@@ -228,11 +228,11 @@
                         <!-- knowledge list -->
                         <ul style="list-style-type: none">
                             <!-- list item -->
-                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Pandas DataFrame</li>
+                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> SQL</li>
                             <!-- list item -->
-                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Linux Knowledge</li>
+                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> REST API knowledge </li>
                             <!-- list item -->
-                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> SQL Knowledge</li>
+                            <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Npm js development</li>
                             <!-- list item -->
                             <li style="font-family: Poppins, sans-serif;"><i class="fa fa-check"></i> Git Knowledge</li>
                         </ul>
@@ -259,6 +259,7 @@
                         <a href="https://www.linkedin.com/in/tomas-ondrejka/" target="_blank"><i class="fa fa-linkedin"></i></a>
                         <a href="https://www.facebook.com/tomas.o.ondrejka/" target="_blank"><i class="fa fa-facebook"></i></a>
                         <a href="https://www.instagram.com/tomas_ondrejka_/" target="_blank"><i class="fa fa-instagram"></i></a>
+
                     </div>
                     <!-- sidebar social end -->
 
@@ -266,7 +267,7 @@
                 <!-- menu bar frame end -->
 
             </div>
-
+            <!-- info bar end -->
 
             <!-- content -->
             <div class="art-content">
@@ -282,7 +283,6 @@
                 </div>
                 <!-- top background end -->
 
-
                 <!-- swup container -->
                 <div class="transition-fade" id="swup">
 
@@ -293,127 +293,129 @@
                         <div class="container-fluid">
 
                             <!-- row -->
+                            <div class="row p-60-0 p-lg-30-0 p-md-15-0">
+                                <!-- col -->
+                                <div class="col-lg-12">
+
+                                    <!-- banner -->
+                                    <div class="art-a art-banner" style="background-image: url(../../img/BackGround.jpg)">
+                                        <!-- banner back -->
+                                        <div class="art-banner-back"></div>
+                                        <!-- banner dec -->
+                                        <div class="art-banner-dec"></div>
+                                        <!-- banner overlay -->
+                                        <div class="art-banner-overlay">
+                                            <!-- main title -->
+                                            <div class="art-banner-title">
+                                                <!-- title -->
+                                                <h1 class="mb-15">Discover my Amazing <br>Art Space!</h1>
+                                                <!-- suptitle -->
+                                                <div class="art-lg-text art-code mb-25">&lt;<i>code</i>&gt; I make <span class="txt-rotate" data-period="2000"
+                                                                                                                          data-rotate='[ "Java applications.", "Webpages.", "JavaScript games.", "management systems." ]'></span>&lt;/<i>code</i>&gt;</div>
+
+                                            </div>
+                                            <!-- main title end -->
+                                            <!-- photo -->
+                                            <img src="../../img/face-2.png" class="art-banner-photo" alt="Tomas Ondrejka">
+                                        </div>
+                                        <!-- banner overlay end -->
+                                    </div>
+                                    <!-- banner end -->
+
+                                </div>
+                                <!-- col end -->
+                            </div>
+                            <!-- row end -->
+
+                        </div>
+                        <!-- container end -->
+
+                        <!-- container -->
+                        <div class="container-fluid">
+
+                            <!-- row -->
                             <div class="row p-30-0">
 
                                 <!-- col -->
-                                <div class="col-lg-6">
+                                <div class="col-md-3 col-6">
 
-                                    <!-- section title -->
-                                    <div class="art-section-title">
-                                        <!-- title frame -->
-                                        <div class="art-title-frame">
-                                            <!-- title -->
-                                            <h4>Education</h4>
+                                    <!-- couner frame -->
+                                    <div class="art-counter-frame">
+                                        <!-- counter -->
+                                        <div class="art-counter-box">
+                                            <!-- counter number -->
+                                            <span class="art-counter">3</span><span class="art-counter-plus">+</span>
                                         </div>
-                                        <!-- title frame end -->
+                                        <!-- counter end -->
+                                        <!-- title -->
+                                        <h6>Years Experience</h6>
                                     </div>
-                                    <!-- section title end -->
-
-                                    <!-- timeline -->
-                                    <div class="art-timeline art-gallery">
-                                        <div class="art-timeline-item">
-                                            <div class="art-timeline-mark-light"></div>
-                                            <div class="art-timeline-mark"></div>
-
-                                            <div class="art-a art-timeline-content">
-                                                <div class="art-card-header">
-                                                    <div class="art-left-side">
-                                                        <h5>High School of IT technologies</h5>
-                                                        <div class="art-el-suptitle mb-15">Student</div>
-                                                    </div>
-                                                    <div class="art-right-side">
-                                                        <span class="art-date">2016 - 2020</span>
-                                                    </div>
-                                                </div>
-
-                                                <p>Dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-                                                <a data-fancybox="diplome" href="files/DiplomeTomasOndrejka.pdf" class="art-link art-color-link art-w-chevron">Diplome</a>
-                                                <a data-fancybox="diplome" href="files/HeadmasterAwardTomasOndrejka.pdf" class="art-link art-color-link art-w-chevron">Headmaster Award</a>
-                                            </div>
-                                        </div>
-                                        <div class="art-timeline-item">
-                                            <div class="art-timeline-mark-light"></div>
-                                            <div class="art-timeline-mark"></div>
-
-                                            <div class="art-a art-timeline-content">
-                                                <div class="art-card-header">
-                                                    <div class="art-left-side">
-                                                        <h5>VIA University College Software Engineering</h5>
-                                                        <div class="art-el-suptitle mb-15">Student</div>
-                                                    </div>
-                                                    <div class="art-right-side">
-                                                        <span class="art-date">2020 - present</span>
-                                                    </div>
-                                                </div>
-                                                <div>•Language Center midst, Horsens (Sprogcenter Midt, Horsens)
-                                                    <br>•AIESEC in Denmark
-                                                    <br>•Helping other students with their studies</div>
-                                            </div>
-                                        </div>
-
-
-
-
-
-                                    </div>
-                                    <!-- timeline end -->
+                                    <!-- couner frame end -->
 
                                 </div>
-                                <div class="col-lg-6">
+                                <!-- col end -->
 
-                                    <!-- section title -->
-                                    <div class="art-section-title">
-                                        <!-- title frame -->
-                                        <div class="art-title-frame">
+                                <!-- col -->
+                                <div class="col-md-3 col-6">
+
+                                    <!-- couner frame -->
+                                    <div class="col-md-3 col-6">
+
+                                        <!-- couner frame -->
+                                        <div class="art-counter-frame">
+                                            <!-- counter -->
+                                            <div class="art-counter-box">
+                                                <!-- counter number -->
+                                                <span class="art-counter">3</span>
+                                            </div>
+                                            <!-- counter end -->
                                             <!-- title -->
-                                            <h4>Work History</h4>
+                                            <h6>Completed Projects</h6>
                                         </div>
-                                        <!-- title frame end -->
+                                        <!-- couner frame end -->
+
                                     </div>
-                                    <!-- section title end -->
 
-                                    <!-- timeline -->
-                                    <div class="art-timeline">
+                                </div>
+                                <!-- col end -->
 
-                                        <div class="art-timeline-item">
-                                            <div class="art-timeline-mark-light"></div>
-                                            <div class="art-timeline-mark"></div>
+                                <!-- col -->
+                                <div class="col-md-3 col-6">
 
-
-                                            <div class="art-a art-timeline-content">
-                                                <div class="art-card-header">
-                                                    <div class="art-left-side">
-                                                        <h5>Reitan distribution</h5>
-                                                    </div>
-                                                    <div class="art-right-side">
-                                                        <span class="art-date">2020 - 2021</span>
-                                                    </div>
-                                                </div>
-                                                <p>•Operating forklift<br>•Preparing anf completing orders<br>•Picking up goods<br> </p>
-                                                <a data-fancybox="diplome" href="files/DanishForkliftLicense.pdf" class="art-link art-color-link art-w-chevron">Danish Forklift License</a>
-                                            </div>
+                                    <!-- couner frame -->
+                                    <div class="art-counter-frame">
+                                        <!-- counter -->
+                                        <div class="art-counter-box">
+                                            <!-- counter number -->
+                                            <span class="art-counter">4</span>
                                         </div>
-
-                                        <div class="art-timeline-item">
-                                            <div class="art-timeline-mark-light"></div>
-                                            <div class="art-timeline-mark"></div>
-
-
-                                            <div class="art-a art-timeline-content">
-                                                <div class="art-card-header">
-                                                    <div class="art-left-side">
-                                                        <h5>Game Developer for TrainYourEyes.dk</h5>
-                                                    </div>
-                                                    <div class="art-right-side">
-                                                        <span class="art-date">2020 - 2021</span>
-                                                    </div>
-                                                </div>
-                                                <p>Creating exercises for customers with sight defections in JavaScript and HTML</p>
-                                            </div>
-                                        </div>
+                                        <!-- counter end -->
+                                        <!-- title -->
+                                        <h6>Happy Customers</h6>
                                     </div>
-                                    <!-- timeline end -->
+                                    <!-- couner frame end -->
 
+                                </div>
+                                <!-- col end -->
+
+                                <!-- col -->
+                                <div class="col-md-3 col-6">
+                                    <div class="col-md-3 col-6">
+
+                                        <!-- couner frame -->
+                                        <div class="art-counter-frame">
+                                            <!-- counter -->
+                                            <div class="art-counter-box">
+                                                <!-- counter number -->
+                                                <span class="art-counter">2</span>
+                                            </div>
+                                            <!-- counter end -->
+                                            <!-- title -->
+                                            <h6>Projects In Progress </h6>
+                                        </div>
+                                        <!-- couner frame end -->
+
+                                    </div>
                                 </div>
                                 <!-- col end -->
 
@@ -426,6 +428,95 @@
                         <!-- container -->
                         <div class="container-fluid">
 
+                            <!-- row -->
+                            <div class="row">
+
+                                <!-- col -->
+                                <div class="col-lg-12">
+
+                                    <!-- section title -->
+                                    <div class="art-section-title">
+                                        <!-- title frame -->
+                                        <div class="art-title-frame">
+                                            <!-- title -->
+                                            <h4>My skills</h4>
+                                        </div>
+                                        <!-- title frame end -->
+                                    </div>
+                                    <!-- section title end -->
+
+                                </div>
+                                <!-- col end -->
+
+                                <!-- col -->
+                                <div class="col-lg-4 col-md-6">
+
+                                    <!-- service -->
+                                    <div class="art-a art-service-icon-box">
+                                        <!-- service content -->
+                                        <div class="art-service-ib-content">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Java</h5>
+                                            <!-- text -->
+                                            <div class="mb-15"></div>
+                                            <!-- button -->
+                                        </div>
+                                        <!-- service content end -->
+                                    </div>
+                                    <!-- service end -->
+
+                                </div>
+                                <!-- col end -->
+
+                                <!-- col -->
+                                <div class="col-lg-4 col-md-6">
+
+                                    <!-- service -->
+                                    <div class="art-a art-service-icon-box">
+                                        <!-- service content -->
+                                        <div class="art-service-ib-content">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Java Script</h5>
+                                            <!-- text -->
+                                            <div class="mb-15"></div>
+                                            <!-- button -->
+                                        </div>
+                                        <!-- service content end -->
+                                    </div>
+                                    <!-- service end -->
+
+                                </div>
+                                <!-- col end -->
+
+                                <!-- col -->
+                                <div class="col-lg-4 col-md-6">
+
+                                    <!-- service -->
+                                    <div class="art-a art-service-icon-box">
+                                        <!-- service content -->
+                                        <div class="art-service-ib-content">
+                                            <!-- title -->
+                                            <h5 class="mb-15">C#</h5>
+                                            <!-- text -->
+                                            <div class="mb-15"></div>
+                                            <!-- button -->
+                                        </div>
+                                        <!-- service content end -->
+                                    </div>
+                                    <!-- service end -->
+
+                                </div>
+                                <!-- col end -->
+
+                                <!-- col -->
+
+                            </div>
+
+                        </div>
+                        <!-- container end -->
+
+                        <!-- container -->
+                        <div class="container-fluid">
 
                             <!-- footer -->
                             <footer>
@@ -484,10 +575,7 @@
                                     <a href="#.">Portfolio</a>
                                     <!-- sub menu -->
                                     <ul class="sub-menu">
-                                        <li class="menu-item"><a href="projects/HospitalManagementSystem.html">Wind Turbines</a></li>
-                                        <li class="menu-item"><a href="Glasses.html">Smart Glasses</a></li>
-                                        <li class="menu-item"><a href="Parkinglot.html">Parking lot</a></li>
-                                        <li class="menu-item"><a href="Drone.html">Drone</a></li>
+                                        <li class="menu-item"><a href="projects/HospitalManagementSystem.html">Hospital Management System</a></li>
 
                                     </ul>
                                     <!-- sub menu end -->
@@ -497,6 +585,7 @@
                                 <!-- menu item -->
                                 <li class="menu-item"><a href="Contact.html">Contact</a></li>
                                 <!-- menu item -->
+
                                 <!-- menu item -->
                             </ul>
                             <!-- menu list end -->
