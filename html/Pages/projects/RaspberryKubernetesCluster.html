@@ -505,8 +505,12 @@
                                             second one as worker node.<br/>
                                             Terraform modules are used for automatic deployments to the cluster. Each
                                             Terraform deployment creates: K8s deployment, K8s service, Traefik ingress
-                                            for the load balancer and a cloudflare record that points to the ingress.
-                                            <br/>
+                                            for the load balancer and a Cloudflare DNS record that points to the
+                                            ingress.<br/>
+                                            During the project, I have followed security and networking best practises
+                                            including: SSH access only with RSA key, using DNS proxy, automatically
+                                            getting a TLS certificate from CA authority (Let's encrypt), using Cloudflare strict SSL
+                                            mode,...<br/>
                                             Currently, the cluster contains deployments of my hobby projects. Whole
                                             cluster configuration together with terraform deployments can be found on my
                                             GitHub Repository.
@@ -528,7 +532,7 @@
                                                     <h6>Start Date:</h6><span>13.5.2022</span>
                                                 </li>
                                                 <li>
-                                                    <h6>Final Date:</h6><span>15.5.2022</span>
+                                                    <h6>Final Date:</h6><span>17.5.2022</span>
                                                 </li>
                                                 <li>
                                                     <h6>Status:</h6><span>Finished</span>
@@ -550,6 +554,15 @@
                                                         <a href="https://github.com/tomondre/raspberry-kubernetes-cluster"
                                                            target="_blank"><i class="fa fa-github"></i></a>
                                                     </span>
+                                                </li>
+                                                <li>
+                                                    <h6>Deployments:</h6>
+                                                    <span>
+                                                        <a href="https://api-cv.tomondre.com/" target="_blank"><i class="fa fa-file"></i></a>
+                                                        <a href="https://portfolio.tomondre.com/" target="_blank"><i class="fa fa-file"></i></a>
+                                                        <a href="https://lego-scraper.tomondre.com/" target="_blank"><i class="fa fa-file"></i></a>
+                                                    </span>
+
                                                 </li>
                                             </ul>
                                         </div>
