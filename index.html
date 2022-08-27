@@ -10,10 +10,11 @@
     const indexPageUrl = 'https://tomondre.github.io/html/Pages/index/html'
 
     let response = await fetch(portfolioDeploymentUrl);
+    console.log(response);
     if (response.status === 200) {
-        window.location.replace(portfolioDeploymentUrl);
+        // window.location.replace(portfolioDeploymentUrl);
     } else {
-        window.location.replace(indexPageUrl);
+        // window.location.replace(indexPageUrl);
     }
 
 </script>
