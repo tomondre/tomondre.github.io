@@ -6,16 +6,24 @@
 </head>
 <body>
 <script>
-    const portfolioDeploymentUrl = 'https://portfolio.tomondre.com';
-    const indexPageUrl = 'https://tomondre.github.io/html/Pages/index/html'
+    async function async() {
+        const portfolioDeploymentUrl = 'https://portfolio.tomondre.com';
+        const indexPageUrl = 'https://tomondre.github.io/html/Pages/index.html'
 
-    let response = await fetch(portfolioDeploymentUrl);
-    console.log(response);
-    if (response.status === 200) {
-        // window.location.replace(portfolioDeploymentUrl);
-    } else {
-        // window.location.replace(indexPageUrl);
+        try {
+            let response = await fetch('https://is-ok.tomondre.com?url=https://portfolio.tomondre.com');
+
+            if (response.status === 200) {
+                window.location.replace(portfolioDeploymentUrl);
+            } else {
+                throw new Error("Halabala");
+            }
+        } catch (e) {
+            window.location.replace(indexPageUrl);
+
+        }
     }
+    async()
 
 </script>
 </body>
